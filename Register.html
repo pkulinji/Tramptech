@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Course Registration Form</title>
+	<link rel="stylesheet" type="text/css" href="Register.css">
+</head>
+<body>
+	<h1>Course Registration Form</h1>
+	<form action="#" method="post">
+		<label for="Firstname">Firstname:</label>
+		<input type="text"id="Firstname" name="Firstname" required>
+		<label for="Surname">Surname:</label>
+		<input type="text"id="Surname" name="Surname" required>
+		<label for="Email">Email:</label>
+		<input type="Email"id="Email" name="Email" required>
+		<label for="Phone">Phone:</label>
+		<input type="tel"id="Phone" name="Phone" required>
+		
+		<label for="Course">choose your course of entry</label>
+		<select id="Course" name="Course" required>
+			<option value=""disabled selected>select a course</option>
+			<option value="CSS">Computer system and security</option>
+			<option value="NEA">Network Administration</option>
+			<option value="DBMS">Database Management system</option>
+			<option value="PSL">Programming scripting Language</option>
+		</select>
+		<input type="submit" name="Register">
+
+	</form>
+</body>
+</html>
